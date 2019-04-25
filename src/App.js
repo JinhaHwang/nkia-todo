@@ -31,12 +31,16 @@ class App extends Component {
     }
 
     getTodoList = async () => {
-        const list = await todoService.getTodoList()
-        console.log(list);
 
-        this.setState({
-            list
-        })
+        try {
+            const list = await todoService.getTodoList()
+            this.setState({
+                list
+            })
+        } catch (e) {
+            console.error(e)
+        }
+
     }
 
     inputValue(value) {

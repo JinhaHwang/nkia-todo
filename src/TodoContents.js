@@ -21,16 +21,18 @@ class TodoContents extends Component {
                 <div className="todo_content">
                     <ul className="todo_myList">
                         {(todoItems && todoItems.length)
-                            ? todoItems.map((val, index) =>
-                            <li className="fix" key={`${val}-${index}`}>
+                            ? todoItems
+                                .filter(todo => todo.completed === false)
+                                .map((todo) =>
+                            <li className="fix" key={todo.id}>
                                 <input type="checkbox"
                                        className="check"
-                                       onClick={()=>onTodoComplete(val)}
+                                       onClick={()=>onTodoComplete(todo)}
                                 />
-                                <span>{` ${val} `}</span>
+                                <span>{todo.title}</span>
                                 <img src={del}
                                      className="delCheck"
-                                     onClick={() => onTodoRemove(val)}
+                                     onClick={() => onTodoRemove(todo)}
                                 />
                             </li>)
                             :

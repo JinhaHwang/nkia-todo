@@ -48,6 +48,7 @@ html{
   padding: 10px;
   height: 550px;
   width: 480px;
+  overflow: auto;
 }
 .todo_content ul{
   padding: 0px 0px 0px 0px;
