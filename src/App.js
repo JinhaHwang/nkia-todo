@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import nkia from './nkia.png';
-import './App.css';
+import './App.scss';
 import TodoHeader from "./TodoHeader";
 import TodoContents from "./TodoContents";
 import todoService from "./service/todoService";
