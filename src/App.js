@@ -3,6 +3,9 @@ import nkia from './nkia.png';
 import './App.css';
 import TodoHeader from "./TodoHeader";
 import TodoContents from "./TodoContents";
+import todoService from "./service/todoService";
+
+
 
 class App extends Component {
 
@@ -21,6 +24,19 @@ class App extends Component {
             { todoText: '할 일3', index: 2, complete: false },
         ]
          */
+    }
+
+    componentDidMount() {
+        this.getTodoList()
+    }
+
+    getTodoList = async () => {
+        const list = await todoService.getTodoList()
+        console.log(list);
+
+        this.setState({
+            list
+        })
     }
 
     inputValue(value) {

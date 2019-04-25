@@ -2,12 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8b99855a-048d-451b-9ddf-ce297344390f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.eslintrc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.prettierrc.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/service/todoService.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/service/todoService.test.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -21,33 +20,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="363">
-              <caret line="110" lean-forward="true" selection-start-line="110" selection-end-line="110" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/TodoHeader.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="331">
+            <state relative-caret-position="399">
               <caret line="19" column="31" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/App.test.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="492">
-              <caret line="67" column="46" lean-forward="true" selection-start-line="67" selection-start-column="46" selection-end-line="67" selection-end-column="46" />
+            <state relative-caret-position="210">
+              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
               <folding>
                 <element signature="e#0#25#0" expanded="true" />
               </folding>
@@ -56,10 +41,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/service/todoService.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="546">
+              <caret line="26" column="19" selection-start-line="26" selection-start-column="19" selection-end-line="26" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.eslintrc.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="357">
-              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+              <caret line="17" selection-start-line="17" selection-end-line="17" />
             </state>
           </provider>
         </entry>
@@ -73,11 +67,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/App.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="483">
-              <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+            <state relative-caret-position="274">
+              <caret line="37" column="16" selection-start-line="37" selection-start-column="16" selection-end-line="37" selection-end-column="16" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
@@ -88,7 +82,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/TodoContents.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
+            <state relative-caret-position="126">
               <caret line="9" column="27" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
               <folding>
                 <element signature="e#0#49#0" expanded="true" />
@@ -100,8 +94,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="131" column="35" lean-forward="true" selection-start-line="131" selection-start-column="35" selection-end-line="131" selection-end-column="35" />
+            <state relative-caret-position="266">
+              <caret line="90" column="54" lean-forward="true" selection-start-line="90" selection-start-column="54" selection-end-line="90" selection-end-column="54" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/service/todoService.test.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-7">
+              <caret line="26" column="22" selection-start-line="26" selection-start-column="22" selection-end-line="26" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -112,6 +115,13 @@
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -136,17 +146,18 @@
         <option value="$PROJECT_DIR$/src/TodoHeader.js" />
         <option value="$PROJECT_DIR$/.prettierrc.js" />
         <option value="$PROJECT_DIR$/.eslintrc.js" />
-        <option value="$PROJECT_DIR$/src/App.test.js" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/src/service/todoService.js" />
+        <option value="$PROJECT_DIR$/src/service/todoService.test.js" />
+        <option value="$PROJECT_DIR$/src/App.test.js" />
+        <option value="$PROJECT_DIR$/src/App.js" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="x" value="-131" />
-    <option name="y" value="-1080" />
-    <option name="width" value="1920" />
-    <option name="height" value="1080" />
+    <option name="width" value="1680" />
+    <option name="height" value="1050" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -164,7 +175,18 @@
             <path>
               <item name="jinha-nkia-todo" type="b2602c69:ProjectViewProjectNode" />
               <item name="jinha-nkia-todo" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jinha-nkia-todo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jinha-nkia-todo" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jinha-nkia-todo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jinha-nkia-todo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -185,6 +207,7 @@
     <property name="nodejs.jest.jest_package" value="$PROJECT_DIR$/node_modules/jest" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="yarn" />
     <property name="prettierjs.PrettierConfiguration.Package" value="/usr/local/lib/node_modules/prettier" />
     <property name="settings.editor.selected.configurable" value="settings.javascript.linters.eslint" />
   </component>
@@ -205,23 +228,22 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Jest.테스트 교육.addTodo Test.핸들링은 이렇게">
-    <configuration name="테스트 교육.addTodo Test.핸들링은 이렇게" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Jest.테스트 교육.should api.getTodoList().length to be 2">
+    <configuration name="테스트 교육.addTodo Test" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
       <jest-package value="$PROJECT_DIR$/node_modules/jest" />
       <working-dir value="$PROJECT_DIR$" />
       <envs />
-      <scope-kind value="TEST" />
+      <scope-kind value="SUITE" />
       <test-file value="$PROJECT_DIR$/src/App.test.js" />
       <test-names>
         <test-name value="테스트 교육" />
         <test-name value="addTodo Test" />
-        <test-name value="핸들링은 이렇게" />
       </test-names>
       <method v="2" />
     </configuration>
-    <configuration name="테스트 교육.addTodo Test.파라미터가 없으면 에러" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+    <configuration name="테스트 교육.addTodo Test.파라미터가 있으면 성공" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
       <jest-package value="$PROJECT_DIR$/node_modules/jest" />
@@ -232,37 +254,7 @@
       <test-names>
         <test-name value="테스트 교육" />
         <test-name value="addTodo Test" />
-        <test-name value="파라미터가 없으면 에러" />
-      </test-names>
-      <method v="2" />
-    </configuration>
-    <configuration name="테스트 교육.addTodo Test.api.addTodo({}) to be true" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
-      <node-interpreter value="project" />
-      <node-options value="" />
-      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
-      <working-dir value="$PROJECT_DIR$" />
-      <envs />
-      <scope-kind value="TEST" />
-      <test-file value="$PROJECT_DIR$/src/App.test.js" />
-      <test-names>
-        <test-name value="테스트 교육" />
-        <test-name value="addTodo Test" />
-        <test-name value="api.addTodo({}) to be true" />
-      </test-names>
-      <method v="2" />
-    </configuration>
-    <configuration name="테스트 교육.addTodo Test.should api.addTodo() rejected" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
-      <node-interpreter value="project" />
-      <node-options value="" />
-      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
-      <working-dir value="$PROJECT_DIR$" />
-      <envs />
-      <scope-kind value="TEST" />
-      <test-file value="$PROJECT_DIR$/src/App.test.js" />
-      <test-names>
-        <test-name value="테스트 교육" />
-        <test-name value="addTodo Test" />
-        <test-name value="should api.addTodo() rejected" />
+        <test-name value="파라미터가 있으면 성공" />
       </test-names>
       <method v="2" />
     </configuration>
@@ -280,13 +272,36 @@
       </test-names>
       <method v="2" />
     </configuration>
+    <configuration name="테스트 교육" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="SUITE" />
+      <test-file value="$PROJECT_DIR$/src/App.test.js" />
+      <test-names>
+        <test-name value="테스트 교육" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Jest.테스트 교육.addTodo Test.핸들링은 이렇게" />
-        <item itemvalue="Jest.테스트 교육.addTodo Test.파라미터가 없으면 에러" />
-        <item itemvalue="Jest.테스트 교육.addTodo Test.api.addTodo({}) to be true" />
+        <item itemvalue="npm.start" />
         <item itemvalue="Jest.테스트 교육.should api.getTodoList().length to be 2" />
-        <item itemvalue="Jest.테스트 교육.addTodo Test.should api.addTodo() rejected" />
+        <item itemvalue="Jest.테스트 교육" />
+        <item itemvalue="Jest.테스트 교육.addTodo Test.파라미터가 있으면 성공" />
+        <item itemvalue="Jest.테스트 교육.addTodo Test" />
       </list>
     </recent_temporary>
   </component>
@@ -301,7 +316,8 @@
       <option name="presentableId" value="Default" />
       <updated>1556159104866</updated>
       <workItem from="1556159105975" duration="1631000" />
-      <workItem from="1556165692259" duration="4162000" />
+      <workItem from="1556165692259" duration="4540000" />
+      <workItem from="1556171133142" duration="1669000" />
     </task>
     <task id="LOCAL-00001" summary="걍 다 추가">
       <created>1556159502270</created>
@@ -310,63 +326,78 @@
       <option name="project" value="LOCAL" />
       <updated>1556159502270</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="환경설정 + 일부 테스트 코드">
+      <created>1556170290999</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1556170290999</updated>
+    </task>
+    <task id="LOCAL-00003" summary=".idea 추가">
+      <created>1556170377939</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1556170377939</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="테스트_교육_addTodo_Test_api_addTodo({})_to_be_true - 2019.04.25 at 13h 54m 50s.xml">
-      <configuration name="테스트 교육.addTodo Test.api.addTodo({}) to be true" configurationId="JavaScriptTestRunnerJest" />
-    </history-entry>
-    <history-entry file="테스트_교육_addTodo_Test_api_addTodo({})_to_be_true - 2019.04.25 at 13h 55m 01s.xml">
-      <configuration name="테스트 교육.addTodo Test.api.addTodo({}) to be true" configurationId="JavaScriptTestRunnerJest" />
-    </history-entry>
-    <history-entry file="테스트_교육_addTodo_Test_api_addTodo({})_to_be_true - 2019.04.25 at 13h 55m 33s.xml">
-      <configuration name="테스트 교육.addTodo Test.api.addTodo({}) to be true" configurationId="JavaScriptTestRunnerJest" />
-    </history-entry>
-    <history-entry file="테스트_교육_addTodo_Test_api_addTodo({})_to_be_true - 2019.04.25 at 14h 09m 53s.xml">
-      <configuration name="테스트 교육.addTodo Test.api.addTodo({}) to be true" configurationId="JavaScriptTestRunnerJest" />
-    </history-entry>
-    <history-entry file="테스트_교육_addTodo_Test_api_addTodo({})_to_be_true - 2019.04.25 at 14h 11m 42s.xml">
-      <configuration name="테스트 교육.addTodo Test.api.addTodo({}) to be true" configurationId="JavaScriptTestRunnerJest" />
-    </history-entry>
-    <history-entry file="테스트_교육_addTodo_Test_api_addTodo({})_to_be_true - 2019.04.25 at 14h 12m 24s.xml">
-      <configuration name="테스트 교육.addTodo Test.api.addTodo({}) to be true" configurationId="JavaScriptTestRunnerJest" />
-    </history-entry>
-    <history-entry file="테스트_교육_addTodo_Test_api_addTodo({})_to_be_true - 2019.04.25 at 14h 13m 04s.xml">
-      <configuration name="테스트 교육.addTodo Test.api.addTodo({}) to be true" configurationId="JavaScriptTestRunnerJest" />
-    </history-entry>
-    <history-entry file="테스트_교육_addTodo_Test_파라미터가_없으면_에러 - 2019.04.25 at 14h 16m 48s.xml">
-      <configuration name="테스트 교육.addTodo Test.파라미터가 없으면 에러" configurationId="JavaScriptTestRunnerJest" />
-    </history-entry>
     <history-entry file="테스트_교육_addTodo_Test_파라미터가_없으면_에러 - 2019.04.25 at 14h 17m 03s.xml">
       <configuration name="테스트 교육.addTodo Test.파라미터가 없으면 에러" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
     <history-entry file="테스트_교육_addTodo_Test_핸들링은_이렇게 - 2019.04.25 at 14h 17m 09s.xml">
       <configuration name="테스트 교육.addTodo Test.핸들링은 이렇게" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
+    <history-entry file="테스트_교육 - 2019.04.25 at 14h 50m 00s.xml">
+      <configuration name="테스트 교육" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+    <history-entry file="테스트_교육 - 2019.04.25 at 14h 53m 15s.xml">
+      <configuration name="테스트 교육" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+    <history-entry file="테스트_교육_addTodo_Test - 2019.04.25 at 14h 55m 11s.xml">
+      <configuration name="테스트 교육.addTodo Test" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+    <history-entry file="테스트_교육_addTodo_Test_파라미터가_있으면_성공 - 2019.04.25 at 14h 55m 15s.xml">
+      <configuration name="테스트 교육.addTodo Test.파라미터가 있으면 성공" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+    <history-entry file="테스트_교육 - 2019.04.25 at 14h 55m 41s.xml">
+      <configuration name="테스트 교육" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+    <history-entry file="테스트_교육_should_api_getTodoList()_length_to_be_2 - 2019.04.25 at 15h 00m 21s.xml">
+      <configuration name="테스트 교육.should api.getTodoList().length to be 2" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+    <history-entry file="테스트_교육_should_api_getTodoList()_length_to_be_2 - 2019.04.25 at 15h 00m 37s.xml">
+      <configuration name="테스트 교육.should api.getTodoList().length to be 2" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+    <history-entry file="테스트_교육_should_api_getTodoList()_length_to_be_2 - 2019.04.25 at 15h 07m 19s.xml">
+      <configuration name="테스트 교육.should api.getTodoList().length to be 2" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5793000" />
+    <option name="totallyTimeSpent" value="7840000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-131" y="-1080" width="1920" height="1080" extended-state="0" />
+    <frame x="0" y="0" width="1600" height="900" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22044729" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49817517" visible="true" weight="0.23876765" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="npm" order="2" side_tool="true" />
+      <window_info id="npm" order="2" sideWeight="0.5018248" side_tool="true" visible="true" weight="0.23876765" />
       <window_info id="Favorites" order="3" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32696176" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32678133" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="8" visible="true" weight="0.32696176" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.33660933" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32696176" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32678133" />
+      <window_info anchor="bottom" id="Messages" order="11" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -421,7 +452,8 @@
     <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="걍 다 추가" />
     <MESSAGE value="환경설정 + 일부 테스트 코드" />
-    <option name="LAST_COMMIT_MESSAGE" value="환경설정 + 일부 테스트 코드" />
+    <MESSAGE value=".idea 추가" />
+    <option name="LAST_COMMIT_MESSAGE" value=".idea 추가" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/Display.js">
@@ -431,33 +463,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/App.js">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="342">
+          <caret line="109" column="17" lean-forward="true" selection-start-line="109" selection-start-column="17" selection-end-line="109" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/TodoContents.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="9" column="27" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
-          <folding>
-            <element signature="e#0#49#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/SFC.js">
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/TodoHeader.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="331">
+        <state relative-caret-position="399">
           <caret line="19" column="31" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.eslintrc.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
         </state>
       </provider>
     </entry>
@@ -468,36 +494,56 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.eslintrc.js">
+    <entry file="file://$PROJECT_DIR$/src/TodoContents.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        <state relative-caret-position="126">
+          <caret line="9" column="27" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#49#0" expanded="true" />
+          </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SFC.js">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="131" column="35" lean-forward="true" selection-start-line="131" selection-start-column="35" selection-end-line="131" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="363">
-          <caret line="110" lean-forward="true" selection-start-line="110" selection-end-line="110" />
+        <state relative-caret-position="266">
+          <caret line="90" column="54" lean-forward="true" selection-start-line="90" selection-start-column="54" selection-end-line="90" selection-end-column="54" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/App.test.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="492">
-          <caret line="67" column="46" lean-forward="true" selection-start-line="67" selection-start-column="46" selection-end-line="67" selection-end-column="46" />
+        <state relative-caret-position="210">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
           <folding>
             <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/service/todoService.test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-7">
+          <caret line="26" column="22" selection-start-line="26" selection-start-column="22" selection-end-line="26" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/service/todoService.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="546">
+          <caret line="26" column="19" selection-start-line="26" selection-start-column="19" selection-end-line="26" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="274">
+          <caret line="37" column="16" selection-start-line="37" selection-start-column="16" selection-end-line="37" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
           </folding>
         </state>
       </provider>
